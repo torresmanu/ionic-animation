@@ -48,13 +48,14 @@ The AnimatedSVG Component
 
 The AnimatedSVG component can be used to render and animate the fill of SVGs.
 
-Props
+## Props for `AnimatedSVG` Component
 
-Prop	Type	Default	Description
-percentage	number	0	Percentage to fill the SVG (0-100).
-fillColor	string	#FF5733	The color to use for the fill animation.
-duration	number	2000	Duration of the animation in milliseconds.
-shape	string	shape1	The SVG shape to animate (shape1, shape2. In this case there are 2 harcoded shapes).
+| Prop           | Type      | Default     | Description                                  |
+|----------------|-----------|-------------|----------------------------------------------|
+| `percentage`   | `number`  | `0`         | Percentage to fill the SVG (0-100).          |
+| `fillColor`    | `string`  | `#FF5733`   | The color to use for the fill animation.     |
+| `duration`     | `number`  | `2000`      | Duration of the animation in milliseconds.   |
+| `shape`        | `string`  | `shape1`    | The SVG shape to animate (shape1, shape2. In this case there are 2 harcoded shapes).| 
 
 
 Contribution
